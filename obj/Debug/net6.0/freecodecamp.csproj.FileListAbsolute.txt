@@ -1,0 +1,15 @@
+/home/hp/c#/freecodecamp/bin/Debug/net6.0/freecodecamp
+/home/hp/c#/freecodecamp/bin/Debug/net6.0/freecodecamp.deps.json
+/home/hp/c#/freecodecamp/bin/Debug/net6.0/freecodecamp.runtimeconfig.json
+/home/hp/c#/freecodecamp/bin/Debug/net6.0/freecodecamp.dll
+/home/hp/c#/freecodecamp/bin/Debug/net6.0/freecodecamp.pdb
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.csproj.AssemblyReference.cache
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.GeneratedMSBuildEditorConfig.editorconfig
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.AssemblyInfoInputs.cache
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.AssemblyInfo.cs
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.csproj.CoreCompileInputs.cache
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.dll
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/refint/freecodecamp.dll
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.pdb
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/freecodecamp.genruntimeconfig.cache
+/home/hp/c#/freecodecamp/obj/Debug/net6.0/ref/freecodecamp.dll
