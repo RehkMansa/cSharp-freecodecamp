@@ -10,10 +10,22 @@ public class Program
 
     while (index <= 5)
     {
-      Console.WriteLine(index);
+      Console.Write(index);
 
 
       index++;
     }
+
+
+    for (int i = 0; i <= 5; i++)
+    {
+      Console.Write(i);
+    }
+
+
+    do
+    {
+      index++;
+    } while (index <= 5);
   }
 }
