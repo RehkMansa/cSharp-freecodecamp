@@ -1,2 +1,6 @@
 bin
 obj
+bin/Debug/net6.0/freecodecamp.dll
+bin/Debug/net6.0/freecodecamp.pdb
+obj/Debug/net6.0/freecodecamp.dll
+obj/Debug/net6.0/freecodecamp.pdb

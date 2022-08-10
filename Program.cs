@@ -5,13 +5,14 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    Greeter("rehkmansa");
+    int cubNum = Cube(5);
+
+    Console.WriteLine(cubNum);
   }
 
-  static void Greeter(string name)
+  static int Cube(int num)
   {
-
-
-    Console.WriteLine("Hello " + name);
+    int data = (num * num * num);
+    return data;
   }
 }
