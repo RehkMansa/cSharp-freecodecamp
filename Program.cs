@@ -6,10 +6,6 @@ public class Program
   public static void Main(string[] args)
   {
     Users rehkmansa = new Users("rehkmansa", "developer", 22, "hjka");
-
-
-
-
-    Console.WriteLine(rehkmansa.UserRole());
+    Console.WriteLine(rehkmansa.GetUserCount());
   }
 }

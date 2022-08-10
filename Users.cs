@@ -1,7 +1,7 @@
 class Users
 {
   public string name; public string role; public int age;
-  private string officeRole = "";
+  private string officeRole = ""; public static int userCount = 0;
   public Users(
     string _name,
     string _role,
@@ -12,10 +12,16 @@ class Users
     role = _role;
     age = _age;
     OfficeRole = _officeRole;
+    userCount++;
   }
   public string UserRole()
   {
     return name + " has the role of " + officeRole;
+  }
+
+  public int GetUserCount()
+  {
+    return userCount;
   }
 
   public string OfficeRole
@@ -24,13 +30,16 @@ class Users
 
     set
     {
-      if (value == "engineering" || value == "design" || value == "product")
+      switch (value)
       {
-        officeRole = value;
-      }
-      else
-      {
-        officeRole = "others";
+        case "engineering":
+        case "design":
+        case "product":
+          officeRole = value;
+          break;
+        default:
+          officeRole = "others";
+          break;
       }
     }
   }
