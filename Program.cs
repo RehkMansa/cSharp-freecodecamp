@@ -5,45 +5,22 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    string secret = "rehkmansa";
 
-    int guesses = 5;
+    Console.WriteLine(Exponent(3, 3));
 
-    string userInput = "";
+  }
 
-    bool outOfGuess = false;
+  static int Exponent(int num, int exp)
+  {
+    int result = num;
 
 
-    do
+    for (int i = 1; i < exp; i++)
     {
-      if (guesses <= 0)
-      {
-        outOfGuess = true;
-      }
-      else
-      {
-
-        Console.Write("You Have " + guesses + " left \nPlease Enter any word ");
-
-        userInput = Console.ReadLine().ToLower();
-
-        guesses--;
-      }
-
-
-    } while (userInput != secret && !outOfGuess);
-
-
-    if (outOfGuess)
-    {
-      Console.WriteLine("You Lost, Please Try Again");
-    }
-    else
-    {
-      Console.WriteLine("You won the game");
+      result *= num;
     }
 
 
-
+    return result;
   }
 }
