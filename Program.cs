@@ -5,28 +5,25 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    string data = GetMax(10, 5);
+    string data = GetMax(7);
 
 
     Console.WriteLine(data);
   }
 
-  static string GetMax(int num1, int num2)
+  static string GetMax(int date)
   {
     string result;
-    if (num1 > num2)
+    switch (date)
     {
-      result = num1.ToString() + " is greater than " + num2.ToString();
-    }
-    else if (num1 < num2)
-    {
-      result = num1.ToString() + " is less than " + num2.ToString();
+      case 1:
+        result = "Monday";
+        break;
 
-    }
-    else
-    {
-      result = num1.ToString() + " is equal to " + num2.ToString();
+      default:
 
+        result = "Enter a valid date";
+        break;
     }
     return result;
   }
