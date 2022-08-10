@@ -7,12 +7,18 @@ public class Program
   {
     try
     {
-      Console.ReadLine();
+      Console.Write("Enter Input 1: ");
+      int num1 = Convert.ToInt32(Console.ReadLine());
+
+      Console.Write("Enter Input 2: ");
+      int num2 = Convert.ToInt32(Console.ReadLine());
+
+      Console.WriteLine(num1 / num2);
     }
     catch (Exception e)
     {
 
-      throw new(e.Message);
+      Console.WriteLine(e.Message);
     }
   }
 
