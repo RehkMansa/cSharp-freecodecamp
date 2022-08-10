@@ -7,4 +7,9 @@ class Users
     role = _role;
     age = _age;
   }
+
+  public string UserRole()
+  {
+    return name + " has the role of " + role;
+  }
 }

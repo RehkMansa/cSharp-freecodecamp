@@ -7,5 +7,7 @@ public class Program
   {
     Users rehkmansa = new Users("rehkmansa", "developer", 22);
 
+
+    Console.WriteLine(rehkmansa.UserRole());
   }
 }
