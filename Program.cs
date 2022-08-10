@@ -7,38 +7,43 @@ public class Program
   {
     string secret = "rehkmansa";
 
-    string guess = "";
+    int guesses = 5;
 
-    int guessCount = 5;
+    string userInput = "";
 
     bool outOfGuess = false;
 
-    while (guess != secret && !outOfGuess)
+
+    do
     {
-      guessCount--;
-
-      Console.Write("Please enter any word: ");
-
-      guess = Console.ReadLine().ToLower();
-
-      Console.WriteLine("You have " + guessCount + " left");
-
-      if (guessCount <= 0)
+      if (guesses <= 0)
       {
         outOfGuess = true;
       }
+      else
+      {
 
-    }
+        Console.Write("You Have " + guesses + " left \nPlease Enter any word ");
+
+        userInput = Console.ReadLine().ToLower();
+
+        guesses--;
+      }
+
+
+    } while (userInput != secret && !outOfGuess);
 
 
     if (outOfGuess)
     {
-      Console.WriteLine("You loose");
+      Console.WriteLine("You Lost, Please Try Again");
     }
     else
     {
-      Console.WriteLine("Yeah!!! You got the answer");
+      Console.WriteLine("You won the game");
     }
+
+
 
   }
 }
