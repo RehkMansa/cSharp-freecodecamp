@@ -5,22 +5,15 @@ public class Program
 {
   public static void Main(string[] args)
   {
-
-    Console.WriteLine(Exponent(3, 3));
-
-  }
-
-  static int Exponent(int num, int exp)
-  {
-    int result = num;
-
-
-    for (int i = 1; i < exp; i++)
+    try
     {
-      result *= num;
+      Console.ReadLine();
     }
+    catch (Exception e)
+    {
 
-
-    return result;
+      throw new(e.Message);
+    }
   }
+
 }
