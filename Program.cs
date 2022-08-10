@@ -5,27 +5,15 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    int index = 1;
+    string secret = "rehkmansa";
 
+    string guess = "";
 
-    while (index <= 5)
+    while (guess != secret.ToLower())
     {
-      Console.Write(index);
+      Console.Write("Enter a word: ");
 
-
-      index++;
+      guess = Console.ReadLine().ToLower();
     }
-
-
-    for (int i = 0; i <= 5; i++)
-    {
-      Console.Write(i);
-    }
-
-
-    do
-    {
-      index++;
-    } while (index <= 5);
   }
 }
