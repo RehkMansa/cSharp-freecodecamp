@@ -5,8 +5,7 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    //objects and classes
-    Users rehkmansa = new Users();
+    Users rehkmansa = new Users("rehkmansa", "developer", 22);
 
   }
 }
