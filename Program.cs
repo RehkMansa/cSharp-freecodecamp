@@ -5,14 +5,29 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    int cubNum = Cube(5);
+    string data = GetMax(10, 5);
 
-    Console.WriteLine(cubNum);
+
+    Console.WriteLine(data);
   }
 
-  static int Cube(int num)
+  static string GetMax(int num1, int num2)
   {
-    int data = (num * num * num);
-    return data;
+    string result;
+    if (num1 > num2)
+    {
+      result = num1.ToString() + " is greater than " + num2.ToString();
+    }
+    else if (num1 < num2)
+    {
+      result = num1.ToString() + " is less than " + num2.ToString();
+
+    }
+    else
+    {
+      result = num1.ToString() + " is equal to " + num2.ToString();
+
+    }
+    return result;
   }
 }
