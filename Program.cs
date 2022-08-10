@@ -5,26 +5,15 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    string data = GetMax(7);
+    int index = 1;
 
 
-    Console.WriteLine(data);
-  }
-
-  static string GetMax(int date)
-  {
-    string result;
-    switch (date)
+    while (index <= 5)
     {
-      case 1:
-        result = "Monday";
-        break;
+      Console.WriteLine(index);
 
-      default:
 
-        result = "Enter a valid date";
-        break;
+      index++;
     }
-    return result;
   }
 }
