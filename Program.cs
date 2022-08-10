@@ -5,10 +5,13 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    //Arrays
+    Greeter("rehkmansa");
+  }
 
-    int[] primeNumbers = {1, 2, 3, 5, 6};
+  static void Greeter(string name)
+  {
 
-    Console.WriteLine(primeNumbers[]);
+
+    Console.WriteLine("Hello " + name);
   }
 }
