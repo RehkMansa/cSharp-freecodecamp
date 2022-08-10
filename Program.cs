@@ -5,21 +5,12 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    try
-    {
-      Console.Write("Enter Input 1: ");
-      int num1 = Convert.ToInt32(Console.ReadLine());
+    //objects and classes
+    BookClass book1 = new BookClass();
 
-      Console.Write("Enter Input 2: ");
-      int num2 = Convert.ToInt32(Console.ReadLine());
-
-      Console.WriteLine(num1 / num2);
-    }
-    catch (Exception e)
-    {
-
-      Console.WriteLine(e.Message);
-    }
+    book1.author = "rehkmansa";
+    book1.pages = 300;
+    book1.title = "rehk the wrecker";
   }
 
 }
